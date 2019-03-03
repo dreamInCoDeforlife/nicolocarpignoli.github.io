@@ -7,7 +7,7 @@ AFRAME.registerComponent('markerhandler', {
         animatedMarker.addEventListener('click', function(ev){
             if (animatedMarker.object3D.visible == true && ev.detail.cursorEl) {
                 const entity = document.querySelector('#animated-model');
-                window.location = "https://www.youtube.com/";
+                window.open("https://www.youtube.com/"),
             }
         });
 }});
